@@ -1,0 +1,29 @@
+public class Hello{
+    public static void Main(){
+        // Your code here!
+        
+        System.Console.WriteLine("Hello C#");
+    }
+    
+    char opc = "";
+    {
+        Console.WriteLine("Escoge Opcion");
+        op = Console.RedKey().KeyChar;
+    }
+    
+    Switch (op)
+    {
+        case "1":
+        Console.WriteLine("Que va ordenar: ");
+        break;
+        case "s"
+        return; //sale del programa
+        default:
+        Console.WriteLine("conoce la opcion");
+        break;
+    }
+    
+    Console.WriteLine("pulsa cualquier tecla para volver al menu");
+    Console.RedKey();
+    
+}
