@@ -1,0 +1,20 @@
+public class Hello{
+    public static void Main(){
+        // Your code here!
+        
+        System.Console.WriteLine("Hello C#");
+    }
+    
+    char[,]mat = new char[0,15];
+    
+    for (int f=0; f<15;f++)
+    {
+        for (int c = 0; c < 15; c++)
+        {
+            Console.Write("ingrese un caracter: ");
+            mat[c,f] = char.Parse(Console.Readline)
+        }
+    }
+    
+   Console.RedKey();
+}
