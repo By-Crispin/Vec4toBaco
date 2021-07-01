@@ -1,0 +1,72 @@
+public class Hello{
+    public static void Main(){
+        // Your code here!
+        
+        System.Console.WriteLine("Hello C#");
+    }
+    
+    int opc, a, b;
+    char salir_continuar;
+    
+    do{
+        printf("/n1) Suma");
+        printf("/n2) Resta");
+        printf("/n3) Multiplicacion");
+        printf("/n4) Division");
+        
+        printf("/n/nEliga una opcion:  ");
+        scanf("%d",&a);
+        
+        switch(opc){
+            case 1: printf("/n Ingrese el valor de A:  ");
+                    scanf("%d",&a);
+                    printf("/n Ingrese el valor de B:  ");
+                    scanf("%d",&b);
+                    printf("/n El resultado de A+B es: %d", a+b);
+                    break,
+            
+            case 2: printf("/n Ingrese el valor de A:  ");
+                    scanf("%d",&a);
+                    printf("/n Ingrese el valor de B:  ");
+                    scanf("%d",&b);
+                    printf("/n El resultado de A-B es: %d", a-b);
+                    break,
+            
+            case 3: printf("/n Ingrese el valor de A:  ");
+                    scanf("%d",&a);
+                    printf("/n Ingrese el valor de B:  ");
+                    scanf("%d",&b);
+                    printf("/n El resultado de A*B es: %d", a*b);
+                    break,
+            
+            case 4: printf("/n Ingrese el valor de A:  ");
+                    scanf("%d",&a);
+                    printf("/n Ingrese el valor de B:  ");
+                    scanf("%d",&b);
+                    printf("/n El resultado de A/B es: %d", a/b);
+                    break,
+            default: ;
+            
+            try
+            {
+                v1 = int.parse(Console.Readline());
+            }
+            cath
+            {
+                Console.WriteLine("Error, formato incorreto");
+                Console.Write("Ingrese el primer valor: ");
+                v1 = int.parse(Console.Readline());
+            }
+            
+        }
+        
+        printf("/n/n%Desea hacer otra operacion? ... ", 168);    
+        printf("/n/nPresione n para salir o s para continuar:  ");    
+        fflush(stdin);
+        scanf("%c", &salir_continuar);
+     
+        system("cls");
+     
+        }while(salir_continuar!="n");
+        
+}
