@@ -1,0 +1,31 @@
+public class Hello{
+    public static void Main(){
+        // Your code here!
+        
+        System.Console.WriteLine("Hello C#");
+        
+        float altura, peso, imc;
+        
+        cout << "Favor ingresar altura en CM:  ";
+        cin << altura;
+        cout << "Favor ingresar peso en KG:  ";
+        cin << peso;
+        
+        imc = peso / ( (altura/100) * (altura/100) );
+                if( imc < 16 )
+                     cout <<"Delgadez severa";
+                else if( imc < 16.99 )
+                          cout <<"Delgadez moderada";
+                     else if( imc < 18.49 )
+                               cout <<"Delgadez aceptable";
+                          else if( imc < 24.99 )
+                                    cout <<"Peso Normal";
+                               else if( imc < 29.99 )
+                                         cout <<"Sobrepeso";
+                                    else if( imc < 34.99 )
+                                              cout <<"Obesidad";
+                                         else 
+                                                 cout <<"Obesidad Morbida";
+        
+    }
+}
