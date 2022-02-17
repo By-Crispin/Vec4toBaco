@@ -1,36 +1,106 @@
-<!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"  media="screen,projection"/>
+<!DOCTYPEhtml >
+  < html >
+    < cabeza >
+      <!--Importar fuente de icono de Google-->
+      < link  href =" https://fonts.googleapis.com/icon?family=Material+Icons " rel =" hoja de estilo " >
+      <!--Importar materializar.css-->
+      < tipo de enlace  =" texto/css " rel =" hoja de estilo " href =" https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css "   media =" pantalla, proyección "/>
 
-      <title>Tienda</title>
+      < título > interfaz de usuario </ título >
+      < h1  align =" centro " > Empresa </ h1 >
+      <!--Informar al navegador de que el sitio web está optimizado para dispositivos móviles-->
+      < meta  name =" viewport " content =" ancho=ancho-del-dispositivo, escala-inicial=1.0 "/>
+    </ cabeza >
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
+    < cuerpo >
 
-    <body>
+        < navegación >
+            < clase div  =" navegación " >
+              < a  href =" # " class =" brand-logo right " > Logotipo </ a >
+              < ul  id =" nav-mobile " class =" left hide-on-med-and-down " >
+                < li > < a > < i  class =" material-icons " > buscar </ i > </ a > </ li >
+                < li > < a > Inicio </ a > </ li >
+                < li > < a > Productos </ a > </ li >
+                < li > < a > Información </ a > </ li >
+                < li > < a > Ayuda </ a > </ li >
+              </ ul >
+            </ div >
+        </ nav >
 
-        <h1 align="center">Empresa</h1>
+        < div  clase =" fila " >
+            < clase div  =" columna l1 " >
 
-        <div class="row">
-            <div class="col l2 card-panel cyan lighten-4">
-                <p align="center">Empresa</p>
-                <p>Inicio</p>
-                <p>Información</p>
-                <p>Productos</p>
-                <p>Servicio al cliente</p>
-            </div>
-            <div class="col l8">
-                <h1 align="center">Inicio</h1>
+            </ div >
+            < clase div  =" columna l10 " >
+                < h1  align =" centro " > Inicio </ h1 >
 
-            </div>
-        </div>
+            </ div >
+            < clase div  =" columna l1 " >
 
-      <!--JavaScript at end of body for optimized loading-->
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    </body>
-  </html>
+            </ div >
+        </ div >
+        < div  clase =" fila " >
+            < div  clase =" columna l3 " >
+
+            </ div >
+            < div  clase =" columna l6 " >
+                < mesa >
+                    < tr >
+                        
+                        < td >
+                            < p  align =" centro " > Productos </ p >
+                        </ td >
+                        < td >
+                            < p  align =" centro " > Información </ p >
+                        </ td >
+                        < td >
+                            < p  align =" centro " > Ayuda </ p >
+                        </ td >
+                        
+                    </ tr >
+                    < tr >
+                        < td >
+                            < p > Producto 1 </ p >
+                            < p > Producto 2 </ p >
+                            < p > Producto 3 </ p >
+                            < p > Más... </ p >
+                        </ td >
+                        < td >
+                            < p > Misión </ p >
+                            < p > Visión </ p >
+                            < p > Historia </ p >
+                            < p > Más... </ p >
+                        </ td >
+                        < td >
+                            < p > ¿Cómo se hace...? </ p >
+                            < p > ¿Dónde veo...? </ p >
+                            < p > ¿Cuando termina...? </ p >
+                            < p > Más... </ p >
+                        </ td >
+                    </ tr >
+                </ mesa >
+            </ div >
+            < div  clase =" columna l3 " >
+
+            </ div >
+            
+        </ div >
+
+        < div  clase =" fila " >
+            < div  clase =" columna l2 " >
+                < p  align =" centro " > Derechos de autor </ p >
+            </ div >
+            < div  clase =" columna l8 " >
+
+            </ div >
+            < div  clase =" columna l2 " >
+                < p  align =" centro " > Mario Abal 5to BaCo </ p >
+            </ div >
+        </ div >
+
+
+
+      <!--JavaScript al final del cuerpo para optimizar la carga-->
+      < tipo de secuencia de comandos  =" texto/javascript " src =" https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js " > </ secuencia de comandos >
+    </ cuerpo >
+  </ html >
